@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            /* (vh) stands for viewport height */
+            height: 100vh;
+        }
+        div{
+            height: 500px;
+            width: 500px;
+            background-color: black;
+            /* it is for along the x-axis and y-axis */
+            /* transform: translate(70px,80px,); */
+            /* it is only for x-axis,if we use also y-axis then it will not work */
+            /* transform: translateX(200px); */
+            /* transform: translateY(300px); */
+        }
+        
+        div{
+            /* transform: scale(2,5); */
+            /* transform: scalex(5) ; */
+            /* transform: scaleY(5); */
+        }
+        div{
+            /* transform: skew(40deg,60deg); */
+            /* transform: skewX(30deg); */
+            /* transform: skewY(50deg); */
+        }
+        div{
+            /* transform: rotate(20deg); */
+            /* transform: rotateX(50deg); */
+            /* transform: rotateY(30deg); */
+            /* transform: rotateZ(45deg); */
+
+        }
+        div{
+            transform: matrix(50,2,3,1,10,5);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
